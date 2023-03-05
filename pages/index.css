@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+/* Cabeçalho Code */
+#MenuCheckBox {
+    display: none;
+}
+img.MenuButton {
+    cursor: pointer;
+    transition-duration: 0.5s;
+    padding: 1px;
+}
+img.MenuButton:hover {
+    background-color: rgb(255, 70, 85);
+    border: solid red 2px;
+}
+header {
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    position: sticky;
+    top: 0;
+    z-index: 11;
+    box-shadow: rgba(0, 0, 0, 0.200) 10px 10px 5px;
+    align-items: center;
+    justify-content: space-around;
+}
+h1.HeaderGameName {
+    color: white;
+}
+nav {
+    background-color: lightgray;
+    border-right: solid red 1px;
+    min-height: 100vh;
+    transform: translate(-300%);
+    transition-duration: 1s;
+}
+#MenuCheckBox:checked ~ nav {
+    transform: translate(0%);
+}
+/* Fim */
+
+/* Celular */
+@media (max-width: 1023px){
+    nav {
+        max-width: 80%;
+    }
+}
+
+/* PC */
+@media (min-width: 1024px){
+    nav {
+        max-width: 20%;
+    }
+}
+
+
+/* TV */
+@media (min-width: 2160px){
+    nav {
+        max-width: 15%;
+    }
+}
