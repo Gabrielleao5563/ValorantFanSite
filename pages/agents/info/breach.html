@@ -1,0 +1,75 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BREACH</title>
+    <link rel="stylesheet" href="example.css">
+</head>
+<body onload="setSkill(1)">
+    <!--Cabeçalho-->
+    <input type="checkbox" id="MenuCheckBox">
+    <header>
+        <div>
+            <h1 class="HeaderGameName">VALORANT</h1>
+        </div>
+        <div>
+            <label for="MenuCheckBox">
+                <img class="MenuButton" src="../../../icons/menu_icon.png" alt="Menu">
+            </label>
+        </div>
+    </header>
+    <nav>
+        <h1 class="NavTop">MENU</h1>
+        <br>
+        <br>
+        <ul class="NavUl">
+            <a style="text-decoration: none;" href=""><li class="NavLi">option1</li></a>
+        </ul>
+        <br>
+        <br>
+    </nav>
+    <!--Fim-->
+
+    <section class="info">
+        <div class="info_agent">
+            <img src="../../../images/breach.png" alt="icon">
+        </div>
+        <div class="info_info">
+            <img src="../../../icons/iniciador.png" alt="icon">
+            <br>
+            <p style="color: white;" class="format">BREACH / INICIADOR</p>
+            <br>
+            <p style="color: white;" class="format">Breach, o homem-biônico sueco, dispara poderosos jatos cinéticos para forçar a abertura de um caminho pelo território inimigo. O dano e a interrupção que ele causa garantem que nenhuma luta seja justa.</p>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="skill" id="skill1_div">
+            <div class="skill_selection">
+                <div class="buttons_holder">
+                    <div onclick="setSkill(1)" class="button_div" id="btn1">
+                        <img style="width: 100%;" src="../../../icons/breach_Q.png" alt="icon">
+                    </div>
+                    <div onclick="setSkill(2)" class="button_div" id="btn2">
+                        <img style="width: 100%;" src="../../../icons/breach_E.png" alt="icon">
+                    </div>
+                    <div onclick="setSkill(3)" class="button_div" id="btn3">
+                        <img style="width: 100%;" src="../../../icons/breach_C.png" alt="icon">
+                    </div>
+                    <div onclick="setSkill(4)" class="button_div" id="btn4">
+                        <img style="width: 100%;" src="../../../icons/breach_X.png" alt="icon">
+                    </div>
+                </div>
+                <br>
+                <p id="SkillName" style="color: rgb(255, 70, 85);" class="format"></p>
+                <br>
+                <p id="SkillText" style="color: rgb(255, 70, 85);" class="format"></p>
+            </div>
+            <div class="skill_video">
+                <video id="reproduction" muted autoplay loop src=""></video>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="breach.js"></script>
+</html>
