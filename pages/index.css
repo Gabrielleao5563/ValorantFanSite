@@ -99,18 +99,74 @@ h1.NavTop {
 }
 /* Fim */
 
+body {
+    overflow: hidden;
+}
+div.PlayValorant {
+    position: relative;
+    min-height: 80vh;
+    overflow: hidden;
+}
+#BackgroundVideo {
+    position: absolute;
+    top: 0;
+    
+    height: 100%;
+}
+section.TextOnTop {
+    position: absolute;
+    z-index: 11;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.play_div1 {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.play_div2 {
+    height: 60%;
+    width: 100%;
+}
+.a5v5game {
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.GameNameBig {
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
 /* Celular */
 @media (max-width: 1023px){
-    
+    .GameNameBig {
+        font-size: 3em;
+    }
+    .a5v5game {
+        font-size: 2em;
+    }
 }
 
 /* PC */
 @media (min-width: 1024px){
-    
+    .GameNameBig {
+        font-size: 5em;
+    }
 }
 
 
 /* TV */
 @media (min-width: 2160px){
-    
+    .GameNameBig {
+        font-size: 8em;
+    }
 }
