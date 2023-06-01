@@ -1,6 +1,6 @@
-var agentname = "";
-var agentsubtext = "";
-var agentbiograpy = "";
+var agentname = "Astra";
+var agentsubtext = "A controladora cósmica!";
+var agentbiograpy = "Astra, a Agente ganense, utiliza energias cósmicas para moldar o campo de batalha a seu bel-prazer. Com total domínio da sua forma astral e um talento estratégico nato, ela está sempre anos-luz à frente dos inimigos.";
 var agentclass = "Controlador";
 
 var skill1name = "Pulso Nova";
@@ -38,12 +38,8 @@ var btn3 = document.getElementById("btn3");
 var btn4 = document.getElementById("btn4");
 
 function start(){
-    agentname = sessionStorage.getItem('nome');
-    agentsubtext = sessionStorage.getItem('subtexto');
-    agentbiograpy = sessionStorage.getItem('biografia');
-
     document.title=String(agentname + " - " + agentsubtext);
-    agentimg.src=String("../../images/" + agentname + ".png");
+    agentimg.src=String("../../images/" + agentname.toLowerCase() + ".png");
     classtext.innerHTML=agentclass.toUpperCase();
     classicon.src=String("../../icons/" + agentclass + ".png");
     biograpy.innerHTML=agentbiograpy;
