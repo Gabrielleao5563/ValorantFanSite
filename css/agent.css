@@ -80,9 +80,29 @@ div.agent-imgandinfo {
 }
 .btncontain {
     width: 20%;
+    margin: auto;
+    text-align: center;
 }
 #btn1, #btn2, #btn3, #btn4 {
     width: 100%;
+}
+.iconedeskill {
+    background-color: rgb(255, 70, 85);
+    padding: 4px;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 100%;
+    transition-duration: 0.3s;
+    box-shadow: 5px 5px 4px rgba(255, 70, 86, 0.452);
+}
+.iconedeskill:hover {
+    background-color: black;
+    box-shadow: 10px 10px 10px rgba(255, 70, 86, 0.452);
+}
+
+.selected {
+    background-color: black;
+    box-shadow: 15px 15px 4px rgba(255, 70, 86, 0.452);
 }
 
 .grid4 {
@@ -104,6 +124,15 @@ div.agent-imgandinfo {
     }
     .half {
         max-width: 90vw;
+    }
+    .videocontainer {
+        width: 90%;
+    }
+    #skillicon {
+        width: 50%;
+    }
+    #agentimage {
+        width: 80%;
     }
 }
 
