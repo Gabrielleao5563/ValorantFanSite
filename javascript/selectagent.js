@@ -1,5 +1,3 @@
-var div = document.getElementById("agents_div");
-
 function digitando(){
 
     var solicitacao = document.getElementById("pesquisa");
@@ -8,10 +6,6 @@ function digitando(){
 
     for(var i = 1; i < quantidade.length; i++){
         var div = document.getElementsByTagName("a")[i];
-
-        var tamanhodotexto = div.name.length;
-
-        console.log(div.name);
 
         for(var j = 0; j < solicitacao.value.length; j++){
 
