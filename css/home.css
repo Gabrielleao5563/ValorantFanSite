@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+.header {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+    margin: auto;
+    text-decoration: none;
+}
+
+section.advise {
+    background-image: url('https://cdn1.epicgames.com/offer/cbd5b3d310a54b12bf3fe8c41994174f/valwide_2560x1440-99f1632f76e12ddc17d4245a74f29fc5');
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-position: center center;
+    background-attachment: fixed;
+}
+p.advise {
+    background-color: rgba(0, 0, 0, 0.800);
+    padding: 10px;
+    max-width: 90vw;
+    width: 100%;
+    font-size: 200%;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+.btntext {
+    font-size: 110%;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+a.advise {
+    width: 100%;
+    text-align: center;
+    max-width: 30vw;
+    background-color: rgb(255, 70, 85);
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.3s;
+    font-weight: bolder;
+    font-size: 200%;
+    border: solid white 1px;
+}
+div.btnhover {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    transition-duration: 1s;
+    width: 100%;
+    background-color: black;
+    height: 100%;
+}
+a.advise:hover > div.btnhover {
+    left: 0%;
+}
+a.advise:hover {
+    box-shadow: rgb(255, 70, 85) 0px 0px 20px;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    max-width: 90vw;
+    margin: auto;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+.agentimgdiv {
+    width: 100%;
+    max-width: 35vw;
+}
+.infodiv {
+    width: 100%;
+    max-width: 35vw;
+}
+.infodiv > h1 {
+    width: 100%;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(255, 70, 85);
+    font-size: 2em;
+}
+.infodiv > p {
+    width: 100%;
+    font-size: 150%;
+    text-align: center;
+    font-weight: bold;
+}
+.agentimgdiv > img {
+    width: 100%;
+}
+
+section.agents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 1023px){
+    a.advise {
+        max-width: 90vw;
+    }
+    .agentimgdiv {
+        max-width: 80vw;
+    }
+    .infodiv {
+        max-width: 80vw;
+    }
+}

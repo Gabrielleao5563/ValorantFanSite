@@ -7,10 +7,16 @@
     <link rel="stylesheet" href="../../css/selectagent.css">
 </head>
 <body>
+    <header>
+        <a href="../home.html" class="header">VALORANT</a>
+    </header>
     <main>
-        <div style="background-color: rgb(255, 70, 85);" class="content flex">
+        <div style="background-color: rgb(255, 70, 85); padding: 10px; text-align: center; position: relative;">
+            <input id="pesquisa" onkeyup="digitando()" type="text" class="input" placeholder="Pesquisar">
+        </div>
+        <div id="agents_div" style="background-color: rgb(255, 70, 85);" class="content flex">
 
-            <a href="astra.html" class="agentdiv">
+            <a name="astra" href="astra.html" class="agentdiv">
                 <div class="agentimg">
                     <img class="agentimage" src="../../images/astra.png" alt="Astra">
                 </div>
@@ -19,16 +25,37 @@
                 </div>
             </a>
 
-            <a href="yoru.html" class="agentdiv">
+            <a name="breach" href="breach.html" class="agentdiv">
                 <div class="agentimg">
-                    <img class="agentimage" src="../../images/yoru.png" alt="Yoru">
+                    <img class="agentimage" src="../../images/breach.png" alt="Breach">
                 </div>
                 <div class="agentname">
-                    <p class="agentnametext">Yoru</p>
+                    <p class="agentnametext">BREACH</p>
+                </div>
+            </a>
+
+            <a name="chamber" href="chamber.html" class="agentdiv">
+                <div class="agentimg">
+                    <img class="agentimage" src="../../images/chamber.png" alt="Chamber">
+                </div>
+                <div class="agentname">
+                    <p class="agentnametext">CHAMBER</p>
+                </div>
+            </a>
+
+
+            <!--======================================================-->
+            <a style="display: none;" class="">
+                <div class="agentimg">
+                    <img class="agentimage" src="" alt="">
+                </div>
+                <div class="agentname">
+                    <p class="agentnametext"></p>
                 </div>
             </a>
             
         </div>
     </main>
 </body>
+<script src="../../javascript/selectagent.js"></script>
 </html>
