@@ -1,4 +1,5 @@
 var max = 21;
+var max2 = 10;
 
 var agente1 = "brimstone";
 var agente2 = "sage";
@@ -23,10 +24,13 @@ var agente20 = "harbor";
 var agente21 = "gekko";
 
 var img = document.getElementById("agentchanging");
+var map = document.getElementById("mapchanging");
 
 var intervalo1 = setInterval(change, 2000);
+var intervalo2 = setInterval(changetwo, 2000);
 
 var numero = 0;
+var numero2 = 0;
 
 function change(){
 
@@ -104,7 +108,54 @@ function change(){
             break;
     }
 
-    img.src=String("../images/" + agent + ".png")
+    img.src=String("../images/" + agent + ".png");
 
     console.log(numero);
+}
+
+function changetwo(){
+
+    var mapa = "";
+
+    if(numero2 == max2){
+        numero2 = 0;
+    }
+
+    numero2++;
+
+    switch(numero2){
+        case 1:
+            mapa = "lotus1";
+            break;
+        case 2:
+            mapa = "lotus3";
+            break;
+        case 3:
+            mapa = "lotus4";
+            break;
+        case 4:
+            mapa = "lotus6";
+            break;
+        case 5:
+            mapa = "lotus7";
+            break;
+        case 6:
+            mapa = "pearl1";
+            break;
+        case 7:
+            mapa = "pearl2";
+            break;
+        case 8:
+            mapa = "pearl3";
+            break;
+        case 9:
+            mapa = "pearl4";
+            break;
+        case 10:
+            mapa = "fracture1";
+            break;
+    }
+
+    map.src=String("../images/maps/" + mapa + ".png");
+
 }

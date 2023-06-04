@@ -123,6 +123,16 @@ section.agents {
     padding-bottom: 10px;
 }
 
+#mapchanging {
+    box-shadow: rgba(0, 0, 0, 0.205) 15px 15px 4px;
+}
+
+section.maps {
+    padding: 20px;
+    min-height: 40vh;
+    background-color: rgb(255, 70, 85);
+}
+
 @media (max-width: 1023px){
     a.advise {
         max-width: 90vw;
