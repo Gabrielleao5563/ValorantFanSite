@@ -7,10 +7,34 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.link1 {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.link1:hover {
+    text-decoration: underline black;
+}
+
+.infoTopText {
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+}
+.infoText {
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+}
+
 header {
     background-color: black;
     padding: 10px;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 20;
 }
 .header {
     color: white;
@@ -20,6 +44,20 @@ header {
     width: 100%;
     margin: auto;
     text-decoration: none;
+}
+
+section.start {
+    background-color: rgb(255, 70, 85);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.menuvideocontainer {
+    width: 100%;
+    max-width: 45vw;
+}
+.menuvideocontainer > video {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.205) 15px 15px 4px;
 }
 
 section.advise {
@@ -50,6 +88,7 @@ p.advise {
     text-align: center;
     font-weight: bolder;
 }
+
 a.advise {
     width: 100%;
     text-align: center;
@@ -142,5 +181,9 @@ section.maps {
     }
     .infodiv {
         max-width: 80vw;
+    }
+    .menuvideocontainer {
+        width: 100%;
+        max-width: 90vw;
     }
 }

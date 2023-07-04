@@ -1,23 +1,25 @@
-function digitando(){
+const pesquisaInput = document.getElementById("pesquisa");
+const resultados = document.getElementsByClassName("agentdiv");
 
-    var solicitacao = document.getElementById("pesquisa");
+pesquisaInput.addEventListener('input', function() {
 
-    var quantidade = document.querySelectorAll('#agents_div > a > div > p');
+    const termoPesquisado = this.value.toLowerCase();
+    console.log(termoPesquisado);
 
-    for(var i = 1; i < quantidade.length; i++){
-        var div = document.getElementsByTagName("a")[i];
+    for(let i = 0; i < resultados.length; i++){
 
-        for(var j = 0; j < solicitacao.value.length; j++){
+        const resultadoTexto = resultados[i].innerText.toLowerCase();
 
-            var letter = solicitacao.value.charAt(j);
+        if(resultadoTexto.includes(termoPesquisado)){
 
-            var tocompare = div.name.charAt(j);
+            resultados[i].classList.remove("hide");
 
-            if(letter == tocompare){
-                div.style.display="block";
-            }else{
-                div.style.display="none";
-            }
+        }else{
+
+            resultados[i].classList.add("hide")
+
         }
+
     }
-}
+
+})
