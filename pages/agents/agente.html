@@ -91,6 +91,8 @@ fetch('agentes.json')
 
         if(nomePersonagem === personagem.nome){
 
+            document.title=personagem.nome;
+
             document.getElementById('classtext').innerHTML=personagem.classe;
 
             document.getElementById('classicon').src=String("../../icons/" + personagem.classe.toLowerCase() + ".png");
