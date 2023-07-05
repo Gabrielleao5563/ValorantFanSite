@@ -68,6 +68,7 @@
         "sk4link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blta33b5e15a758d337/63937c9ddd9cc310b3158737/Chamber_X_rework_web.mp4"
     },
     {
+<<<<<<< HEAD
         "nome": "Deadlock",
         "descricao": "A agente norueguesa Deadlock posiciona uma gama de nanofios de alta tecnologia para proteger o campo de batalha até mesmo do ataque mais letal. Ninguém escapa do seu olhar vigilante. Ninguém sobrevive à sua ferocidade implacável.",
         "classe": "Sentinela",
@@ -85,6 +86,8 @@
         "sk4link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd02395a7fa554cd1/6494c187edfc646bc3351296/AgentPage_Deadlock_Ability_X_2.mp4"
     },
     {
+=======
+>>>>>>> 54cbff54b42faaa8cbb801947393d1fb9fd7fcf1
         "nome": "Fade",
         "descricao": "Fade, uma caçadora de recompensas turca, usa o poder dos pesadelos para capturar os segredos dos inimigos. Personificando o próprio terror, ela persegue os alvos e revela seus medos mais profundos para, depois, destruí-los na escuridão.",
         "classe": "Iniciador",
@@ -93,6 +96,7 @@
         "sk3nome": "Espreitador",
         "sk4nome": "Véu da Noite",
         "sk1info": "EQUIPE um nódulo de puro temor. DISPARE para arremessá-lo. O nódulo cairá depois de um determinado tempo. REPITA a habilidade para soltá-lo antecipadamente. Esse nódulo se rompe ao impacto, enclausurando inimigos próximos. Inimigos enclausurados sofrem surdez e deterioração.",
+<<<<<<< HEAD
         "sk2info": "EQUIPE uma assombração. DISPARE para arremessá-la. Ela cairá depois de um determinado tempo. REPITA a habilidade para soltá-la antecipadamente. Essa assombração ataca ao contato, revelando inimigos em sua linha de visão e criando rastros sinistros até eles. Ela pode ser destruída pelos inimigos.",
         "sk3info": "EQUIPE um Espreitador. DISPARE para enviá-lo à frente. SEGURE O DISPARO para mover o Espreitador na direção da sua retícula. Ele perseguirá o primeiro rastro sinistro ou inimigo que encontrar e afetará o alvo com visão turva ao alcançá-lo.",
         "sk4info": "EQUIPE o poder dos pesadelos. DISPARE para liberar uma onda implacável de energia aterrorizante. Inimigos atingidos pela onda são marcados por rastros sinistros e sofrem surdez e deterioração.",
@@ -100,6 +104,15 @@
         "sk2link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt82a21218065dc472/625f2c47fd9afd4b1fe300ea/E-Haunt_video.mp4",
         "sk3link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf4e7a6525fe6ec42/625f2c7cfd9afd4b1fe300ee/C-Prowler_video.mp4",
         "sk4link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt75dfbdc2fbf6bfe1/625f2ba62777714c51b313be/X-Nightfall_Video.mp4"
+=======
+        "sk2info": "",
+        "sk3info": "",
+        "sk4info": "EQUIPE o poder dos pesadelos. DISPARE para liberar uma onda implacável de energia aterrorizante. Inimigos atingidos pela onda são marcados por rastros sinistros e sofrem surdez e deterioração.",
+        "sk1link": "",
+        "sk2link": "",
+        "sk3link": "",
+        "sk4link": ""
+>>>>>>> 54cbff54b42faaa8cbb801947393d1fb9fd7fcf1
     },
     {
         "nome": "Neon",
@@ -113,10 +126,17 @@
         "sk2info": "INSTANTANEAMENTE canaliza o poder de Neon para receber velocidade aumentada. Ao atingir a carga máxima, use o DISPARO ALTERNATIVO para acionar um deslize elétrico. O carregamento é redefinido a cada dois abates.",
         "sk3info": "DISPARE duas linhas de energia no chão à frente. As linhas se estendem por uma curta distância ou até atingirem uma superfície. Elas se tornam paredes de eletricidade estática que bloqueiam a visão e causam dano aos inimigos que as atravessarem.",
         "sk4info": "Neon libera todo o seu poder e velocidade por um curto período. DISPARE para canalizar isso em um raio elétrico mortal com alta precisão de movimento. A duração é redefinida com cada abate.",
+<<<<<<< HEAD
         "sk1link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf634e203f29987a5/61d8a91abf9cb8387cc1d9c8/VAL_Neon_Ability-Q_Preview_Stun_noHUD_Web_h264.mp4",
         "sk2link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt99e20f893b806cc8/61d8a9608aabbf6426b7523a/VAL_Neon_Ability-E_Preview_Sprint_noHUD_Web_h264.mp4",
         "sk3link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt023814e24e6cad2f/61d8a98914ef402247ceab3a/VAL_Neon_Ability-C_Preview_Walls_noHUD_Web_h264.mp4",
         "sk4link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltcbe0e9c4b801f025/61d8a9dfef206c6c5e4941ba/VAL_Neon_Ability-X_Preview_Ult_noHUD_Web_h264.mp4"
+=======
+        "sk1link": "",
+        "sk2link": "",
+        "sk3link": "",
+        "sk4link": ""
+>>>>>>> 54cbff54b42faaa8cbb801947393d1fb9fd7fcf1
     },
     {
         "nome": "Reyna",
@@ -130,10 +150,17 @@
         "sk2info": "INSTANTANEAMENTE consome um Orbe de Alma próximo, ficando inatingível por um curto período. Também se torna invisível se a habilidade IMPERATRIZ estiver ativa.",
         "sk3info": "EQUIPE um olho etéreo e destrutível. ATIVE para lançá-lo adiante a uma curta distância. O olho deixará com visão turva todos os inimigos que olharem para ele.",
         "sk4info": "INSTANTANEAMENTE entra em estado de frenesi, aumentando de forma drástica as velocidades de disparo, equipamento e recarga de munição. Renova a duração ao fazer um abate.",
+<<<<<<< HEAD
         "sk1link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltb216220f42c804e2/5ecad85d4a28e119db5622a8/Reyna_Q_v001_web.mp4",
         "sk2link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt77e99ec99ef3a839/5ecad85e2f5c725928765503/Reyna_E_v002_web.mp4",
         "sk3link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf6109b8be97e8d96/5ecad85db42d3333c95dd1b2/Reyna_C_v002_web.mp4",
         "sk4link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltadf53a38e449cb4d/5ecad85cbab1845d392dfd0f/Reyna_X_v001_web.mp4"
+=======
+        "sk1link": "",
+        "sk2link": "",
+        "sk3link": "",
+        "sk4link": ""
+>>>>>>> 54cbff54b42faaa8cbb801947393d1fb9fd7fcf1
     },
     {
         "nome": "Skye",
@@ -147,6 +174,26 @@
         "sk2info": "EQUIPE um amuleto de falcão. DISPARE para enviá-lo. SEGURE O DISPARO para guiar o falcão na direção da sua mira. REPITA a habilidade enquanto ele estiver voando para transformá-lo em um feixe de luz que gera uma confirmação de hit caso um inimigo esteja dentro do alcance ou na linha de visão.",
         "sk3info": "EQUIPE um amuleto de cura. SEGURE O DISPARO para canalizar, curando aliados dentro do alcance e na sua linha de visão. Esta habilidade pode ser repetida até a reserva de cura ser esgotada. Skye não pode curar a si mesma.",
         "sk4info": "EQUIPE um amuleto de Rastreador. DISPARE para enviar três Rastreadores que localizarão os três inimigos mais próximos. Se um Rastreador alcançar um alvo, causará Visão Turva a ele. Inimigos podem destruir os Rastreadores.",
+<<<<<<< HEAD
+=======
+        "sk1link": "",
+        "sk2link": "",
+        "sk3link": "",
+        "sk4link": ""
+    },
+    {
+        "nome": "Yoru",
+        "descricao": "Yoru, nativo do Japão, abre fendas na realidade para infiltrar as linhas inimigas sem ser visto. Ele usa tanto artimanhas quanto táticas agressivas, e os alvos são abatidos sem saber de onde o ataque veio.",
+        "classe": "Duelista",
+        "sk1nome": "Ponto Cego",
+        "sk2nome": "Passagem Dimensional",
+        "sk3nome": "Distração",
+        "sk4nome": "Espionagem Dimensional",
+        "sk1info": "EQUIPE para arrancar um fragmento dimensional instável da realidade. DISPARE para lançar o fragmento, ativando um clarão que se dissipa ao atingir uma superfície sólida.",
+        "sk2info": "EQUIPE um fluxo dimensional. DISPARE para lançá-lo à frente. Use o DISPARO ALTERNATIVO para posicionar um fluxo imóvel. ATIVE para se teleportar até ele. USE para acionar um teleporte falso.",
+        "sk3info": "EQUIPE um eco dimensional que se transforma em uma cópia do Yoru quando ativado. DISPARE para ativar a cópia e fazê-la avançar. Use o MODO SECUNDÁRIO para posicionar um eco inativo. USE para transformar o eco inativo em uma cópia e fazê-la avançar. As cópias explodem e cegam os inimigos quando destruídas por eles.",
+        "sk4info": "EQUIPE uma máscara para olhar por entre as dimensões. DISPARE para entrar na dimensão do Yoru, onde você não poderá ser afetado nem visto pelos inimigos lá fora. REATIVE para sair da dimensão do Yoru mais cedo.",
+>>>>>>> 54cbff54b42faaa8cbb801947393d1fb9fd7fcf1
         "sk1link": "",
         "sk2link": "",
         "sk3link": "",
