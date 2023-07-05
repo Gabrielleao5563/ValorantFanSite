@@ -16,54 +16,52 @@
         </div>
         <div id="agents_div" style="background-color: rgb(255, 70, 85);" class="content flex">
 
-            <a name="astra" href="astra.html" class="agentdiv">
-                <div class="agentimg">
-                    <img class="agentimage" src="../../images/astra.png" alt="Astra">
-                </div>
-                <div class="agentname">
-                    <p class="agentnametext">ASTRA</p>
-                </div>
-            </a>
-
-            <a name="breach" href="breach.html" class="agentdiv">
-                <div class="agentimg">
-                    <img class="agentimage" src="../../images/breach.png" alt="Breach">
-                </div>
-                <div class="agentname">
-                    <p class="agentnametext">BREACH</p>
-                </div>
-            </a>
-
-            <a name="chamber" href="chamber.html" class="agentdiv">
-                <div class="agentimg">
-                    <img class="agentimage" src="../../images/chamber.png" alt="Chamber">
-                </div>
-                <div class="agentname">
-                    <p class="agentnametext">CHAMBER</p>
-                </div>
-            </a>
-
-            <a name="yoru" href="yoru.html" class="agentdiv">
-                <div class="agentimg">
-                    <img class="agentimage" src="../../images/yoru.png" alt="Yoru">
-                </div>
-                <div class="agentname">
-                    <p class="agentnametext">YORU</p>
-                </div>
-            </a>
-
-            <!--======================================================-->
-            <a style="display: none;" class="">
-                <div class="agentimg">
-                    <img class="agentimage" src="" alt="">
-                </div>
-                <div class="agentname">
-                    <p class="agentnametext"></p>
-                </div>
-            </a>
+            
             
         </div>
     </main>
 </body>
-<script src="../../javascript/selectagent.js"></script>
+<script>
+var div = document.getElementById("agents_div");
+
+fetch('agentes.json')
+  .then(response => response.json())
+  .then(data => {
+    data.forEach(personagem => {
+      var conteudoExistente = div.innerHTML;
+
+      var novoConteudo = `
+        <a name="${personagem.nome}" href="agente.html?nome=${personagem.nome}" class="agentdiv">
+            <div class="agentimg">
+                <img class="agentimage" src="../../images/${personagem.nome.toLowerCase()}.png">
+            </div>
+            <div class="agentname">
+                <p class="agentnametext">${personagem.nome}</p>
+            </div>
+        </a>
+      `;
+
+      div.innerHTML=conteudoExistente + novoConteudo;
+    });
+  });
+
+
+const pesquisaInput = document.getElementById('pesquisa');
+const resultados = document.getElementsByClassName('agentdiv');
+
+pesquisaInput.addEventListener('input', function() {
+  const termoPesquisado = this.value.toLowerCase();
+
+  for (let i = 0; i < resultados.length; i++) {
+    const resultadoTexto = resultados[i].innerText.toLowerCase();
+    if (resultadoTexto.includes(termoPesquisado)) {
+      resultados[i].classList.remove('hide');
+    } else {
+      resultados[i].classList.add('hide');
+    }
+  }
+});
+
+
+</script>
 </html>

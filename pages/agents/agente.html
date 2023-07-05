@@ -1,0 +1,173 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome do Agente</title>
+    <link rel="stylesheet" href="../../css/agent.css">
+</head>
+<body>
+    <header>
+        <a href="../home.html" class="header">VALORANT</a>
+    </header>
+    <main>
+        <div style="background-color: rgb(255, 70, 85);" class="content">
+            <br>
+            <br>
+            <div class="agent-imgandinfo">
+                <div style="text-align: center;">
+                    <img id="agentimage" src="" alt="Agent">
+                </div>
+                <div>
+                    <div class="grid2">
+                        <div style="display: flex; align-items: center;">
+                            <p id="classtext"></p>
+                        </div>
+                        <div style="display: flex; align-items: center; justify-content: center;">
+                            <img id="classicon" src="" alt="Class">
+                        </div>
+                    </div>
+                    <br>
+                    <p id="biograpy"></p>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+        <div>
+            <br>
+            <br>
+            <div class="grid4">
+                <div onclick="set('Q', 1)" class="btncontain">
+                    <img class="iconedeskill selected" id="btn1" src="" alt="icon">
+                </div>
+                <div onclick="set('E', 2)" class="btncontain">
+                    <img class="iconedeskill" id="btn2" src="" alt="icon">
+                </div>
+                <div onclick="set('C', 3)" class="btncontain">
+                    <img class="iconedeskill" id="btn3" src="" alt="icon">
+                </div>
+                <div onclick="set('X', 4)" class="btncontain">
+                    <img class="iconedeskill" id="btn4" src="" alt="icon">
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+        <!--Skills-->
+        <div style="background-color: rgb(255, 70, 85);">
+            <br>
+            <br>
+            <div class="skillcontainer">
+                <div style="position: relative;" class="videocontainer">
+                    <video id="screen" muted autoplay loop src=""></video>
+                </div>
+                <div class="half">
+                    <div style="display: flex; align-items: center; justify-content: space-around;">
+                        <div style="text-align: center;" class="half">
+                            <img id="skillicon" src="" alt="icon">
+                        </div>
+                        <div class="half">
+                            <p id="skillname"></p>
+                        </div>
+                    </div>
+                    <br>
+                    <p id="skillinfo"></p>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+    </main>
+</body>
+<script>
+
+const urlParams = new URLSearchParams(window.location.search);
+const nomePersonagem = urlParams.get('nome');
+
+fetch('agentes.json')
+  .then(response => response.json())
+  .then(data => {
+    data.forEach(personagem => {
+
+        if(nomePersonagem === personagem.nome){
+
+            document.getElementById('classtext').innerHTML=personagem.classe;
+
+            document.getElementById('classicon').src=String("../../icons/" + personagem.classe.toLowerCase() + ".png");
+
+            document.getElementById('biograpy').innerHTML=personagem.descricao;
+
+            document.getElementById('agentimage').src=String("../../images/" + personagem.nome.toLowerCase() + ".png");
+
+            document.getElementById('btn1').src=String("../../icons/" + personagem.nome.toLowerCase() + "_Q.png");
+            document.getElementById('btn2').src=String("../../icons/" + personagem.nome.toLowerCase() + "_E.png");
+            document.getElementById('btn3').src=String("../../icons/" + personagem.nome.toLowerCase() + "_C.png");
+            document.getElementById('btn4').src=String("../../icons/" + personagem.nome.toLowerCase() + "_X.png");
+
+            document.getElementById('skillicon').src=String("../../icons/" + personagem.nome.toLowerCase() + "_Q.png");
+            document.getElementById('skillname').innerHTML=personagem.sk1nome;
+            document.getElementById('skillinfo').innerHTML=personagem.sk1info;
+
+            document.getElementById('screen').src=personagem.sk1link;
+
+        }
+
+    });
+  });
+
+function set(what, number){
+    fetch('agentes.json')
+      .then(response => response.json())
+      .then(data => {
+        data.forEach(personagem => {
+
+            if(nomePersonagem === personagem.nome){
+
+                var valordonome = "";
+                var valordainfo = "";
+                var valordolink = "";
+                document.getElementById('btn1').classList.remove("selected");
+                document.getElementById('btn2').classList.remove("selected");
+                document.getElementById('btn3').classList.remove("selected");
+                document.getElementById('btn4').classList.remove("selected");
+                switch(number){
+                    case 1:
+                        valordonome=personagem.sk1nome;
+                        valordainfo=personagem.sk1info;
+                        valordolink=personagem.sk1link;
+                        document.getElementById('btn1').classList.add("selected");
+                        break;
+                    case 2:
+                        valordonome=personagem.sk2nome;
+                        valordainfo=personagem.sk2info;
+                        valordolink=personagem.sk2link;
+                        document.getElementById('btn2').classList.add("selected");
+                        break;
+                    case 3:
+                        valordonome=personagem.sk3nome;
+                        valordainfo=personagem.sk3info;
+                        valordolink=personagem.sk3link;
+                        document.getElementById('btn3').classList.add("selected");
+                        break;
+                    case 4:
+                        valordonome=personagem.sk4nome;
+                        valordainfo=personagem.sk4info;
+                        valordolink=personagem.sk4link;
+                        document.getElementById('btn4').classList.add("selected");
+                        break;
+                }
+
+                document.getElementById('skillicon').src=String("../../icons/" + personagem.nome.toLowerCase() + "_" + what + ".png");
+                document.getElementById('skillname').innerHTML=valordonome;
+                document.getElementById('skillinfo').innerHTML=valordainfo;
+
+                document.getElementById('screen').src=valordolink;
+
+            }
+
+        });
+      });
+}
+
+</script>
+</html>
