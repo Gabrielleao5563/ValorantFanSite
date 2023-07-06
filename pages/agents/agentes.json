@@ -1,5 +1,27 @@
 [
     {
+        "nome": "Astra",
+
+        "descricao": "Astra, a Agente ganense, utiliza energias cósmicas para moldar o campo de batalha a seu bel-prazer. Com total domínio da sua forma astral e um talento estratégico nato, ela está sempre anos-luz à frente dos inimigos.",
+
+        "classe": "Controlador",
+
+        "sk1nome": "Pulso Nova",
+        "sk2nome": "Nebulosa",
+        "sk3nome": "Poço Gravitácional",
+        "sk4nome": "Divísa Cósmica",
+
+        "sk1info": "Posicione Estrelas na Forma Astral (X) ATIVE uma Estrela para detonar um Pulso Nova. O Pulso Nova carrega brevemente e depois estoura, causando concussão a todos os jogadores na área.",
+        "sk2info": "Posicione Estrelas na Forma Astral (X). ATIVE uma Estrela para transformá-la em uma Nebulosa (fumaça). USE uma Estrela para dissipá-la, retornando a Estrela para ser posicionada em um novo local após um período. Dissipar forma brevemente uma Nebulosa falsa na localização da Estrela antes de retornar.",
+        "sk3info": "Posicione Estrelas na Forma Astral (X) ATIVE uma Estrela para formar um Poço Gravitacional. Jogadores na área são puxados em direção ao centro antes de ele explodir, deixando frágeis todos que ainda estão presos no centro.",
+        "sk4info": "ATIVE para entrar na Forma Astral, em que você pode posicionar Estrelas com o DISPARO. As Estrelas podem ser reativadas depois para serem transformadas em Pulso Nova, Nebulosa ou Poço Gravitacional. Quando Divisa Cósmica estiver carregada, use o DISPARO ALTERNATIVO na Forma Astral para começar a mirar e, depois, o DISPARO para escolher dois locais. Uma Divisa Cósmica infinita surge e conecta os pontos selecionados. A Divisa Cósmica bloqueia disparos e abafa muito o som.",
+
+        "sk1link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt78e556d97ea93fc9/6036c92572c04c12c9563dff/RIFT21_Astra_Ability_Q.mp4",
+        "sk2link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt3be9010588cba144/6036c924427f5d75042c3ae5/RIFT21_Astra_Ability_E_F.mp4",
+        "sk3link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltaba20d81cc601af4/6036c92599494e6c4f166b19/RIFT21_Astra_Ability_C.mp4",
+        "sk4link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltca94f8d6f8e4c91d/6036c92499494e6c4f166b15/RIFT21_Astra_Ability_ULT.mp4"
+    },
+    {
         "nome": "Deadlock",
 
         "descricao": "A agente norueguesa Deadlock posiciona uma gama de nanofios de alta tecnologia para proteger o campo de batalha até mesmo do ataque mais letal. Ninguém escapa do seu olhar vigilante. Ninguém sobrevive à sua ferocidade implacável.",
@@ -20,5 +42,137 @@
         "sk2link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt91ea123447dc4820/649497a91de9c33b380f43aa/AgentPage_Deadlock_Ability_E.mp4",
         "sk3link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt5ba97cb2d6cab44e/6494969bf57ecc7db03abf4b/AgentPage_Deadlock_Ability_C.mp4",
         "sk4link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd02395a7fa554cd1/6494c187edfc646bc3351296/AgentPage_Deadlock_Ability_X_2.mp4"
+    },
+    {
+        "nome": "Gekko",
+
+        "descricao": "Gekko, de Los Angeles, lidera um grupo muito unido de criaturas caóticas. Seus amigos atropelam tudo, tirando os inimigos do caminho. Depois, Gekko corre atrás deles para reagrupá-los e reiniciar o processo.",
+
+        "classe": "Iniciador",
+
+        "sk1nome": "WingMan",
+        "sk2nome": "Dizzi",
+        "sk3nome": "MoshPit",
+        "sk4nome": "Thrash",
+
+        "sk1info": "EQUIPE Wingman. DISPARE para enviá-lo para encontrar inimigos. Wingman lança uma forte explosão na direção do primeiro inimigo que vê. Use o DISPARO ALTERNATIVO na direção de um ponto ou Spike plantada para que Wingman plante ou desarme a Spike. Para plantar, Gekko deve estar com a Spike no inventário. Quando Wingman expira, ele se transforma em um glóbulo inativo. INTERAJA para recuperar o glóbulo e ganhar outra carga de Wingman após um curto período.",
+        "sk2info": "EQUIPE Dizzy. DISPARE para enviá-la voando pelo ar. Dizzy avança e solta explosões de plasma nos inimigos em sua linha de visão. Os inimigos atingidos pelo plasma ficam cegos. Ao expirar, Dizzy se transforma em um glóbulo inativo. INTERAJA para recuperar o glóbulo e ganhar outra carga de Dizzy após um curto período.",
+        "sk3info": "EQUIPE Mosh. DISPARE para lançá-lo como uma granada. Use o DISPARO ALTERNATIVO para lançar por baixo. Ao atingir uma superfície, Mosh se duplica em uma grande área e, depois de uns instantes, explode.",
+        "sk4info": "EQUIPE Thrash. DISPARE para se conectar à mente dela e guiá-la pelo território inimigo. ATIVE para avançar e explodir, detendo qualquer inimigo em um pequeno raio. Ao expirar, Thrash se transforma em um glóbulo inativo. INTERAJA para recuperar o glóbulo e ganhar outra carga de Thrash após um curto período. Thrash pode ser recuperada uma vez.",
+
+        "sk1link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt79a9f8119f366ad1/64029afe10329144ff021282/Website_Gekko_Wingman_Stun_FNL.mp4",
+        "sk2link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt7a75dbdd9b6c4220/64029b4743153734d1472d59/Website_Gekko_Dizzy_FNL.mp4",
+        "sk3link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf9f635d9cb6cf999/64029aa343153734d1472d55/Website_Gekko_MoshPit_FNL.mp4",
+        "sk4link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt1a1188dafa478506/64029a1a205f2b7a60b74497/Website_Gekko_Thrash_FNL.mp4"
+    },
+    {
+        "nome": "Kayo",
+
+        "descricao": "KAY/O é uma máquina de guerra construída com um único propósito: neutralizar Radiantes. Ele é capaz de Suprimir habilidades inimigas, anulando a capacidade de contra-ataque dos adversários e dando a si e a seus aliados uma vantagem essencial em combate.",
+
+        "classe": "Iniciador",
+
+        "sk1nome": "Granada/Clarão",
+        "sk2nome": "Ponto/Zero",
+        "sk3nome": "Frag/Mento",
+        "sk4nome": "Anular/CMD",
+
+        "sk1info": "EQUIPE uma granada de clarão. DISPARE para jogá-la por cima. Use o DISPARO ALTERNATIVO para arremessar a curta distância uma versão mais fraca que explode mais rápido. A granada de clarão explode após um curto período, Cegando qualquer um que estiver na linha de visão.",
+        "sk2info": "EQUIPE uma lâmina de supressão. DISPARE para lançar. A lâmina se fixa à primeira superfície que atingir e explode, Suprimindo qualquer um que estiver dentro do raio da explosão. Inimigos podem destruir a lâmina.",
+        "sk3info": "EQUIPE um fragmento explosivo. DISPARE para lançá-lo. O fragmento se fixa ao chão e explode várias vezes, causando dano quase letal no centro de cada explosão.",
+        "sk4info": "INSTANTANEAMENTE sobrecarrega com energia de Radianita polarizada que emite grandes pulsos energéticos em um raio enorme a partir de onde KAY/O estiver. Inimigos atingidos pelos pulsos são Suprimidos por um curto período. Enquanto estiver sobrecarregado, KAY/O recebe Estimulante de Combate e pode ser reestabilizado se for abatido.",
+
+        "sk1link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltab2fead35a9b412d/60cce5d49b520349ac9d080d/KAYO_C_v002_web.mp4",
+        "sk2link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt11ab79d777cba68e/60cce41a07060a4ae3f12ff1/KAYO_E_v002_web.mp4",
+        "sk3link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6372c1b58baf8ca2/60cce401ae0d50495b4f7e31/KAYO_Q_v001_web.mp4",
+        "sk4link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6cd3a6f6e99152f8/60cce43683f9fe49a6fee835/KAYO_X_v003_web.mp4"
+    },
+    {
+        "nome": "Neon",
+
+        "descricao": "",
+
+        "classe": "",
+
+        "sk1nome": "",
+        "sk2nome": "",
+        "sk3nome": "",
+        "sk4nome": "",
+
+        "sk1info": "",
+        "sk2info": "",
+        "sk3info": "",
+        "sk4info": "",
+
+        "sk1link": "",
+        "sk2link": "",
+        "sk3link": "",
+        "sk4link": ""
+    },
+    {
+        "nome": "Reyna",
+
+        "descricao": "",
+
+        "classe": "",
+
+        "sk1nome": "",
+        "sk2nome": "",
+        "sk3nome": "",
+        "sk4nome": "",
+
+        "sk1info": "",
+        "sk2info": "",
+        "sk3info": "",
+        "sk4info": "",
+
+        "sk1link": "",
+        "sk2link": "",
+        "sk3link": "",
+        "sk4link": ""
+    },
+    {
+        "nome": "Skye",
+
+        "descricao": "",
+
+        "classe": "",
+
+        "sk1nome": "",
+        "sk2nome": "",
+        "sk3nome": "",
+        "sk4nome": "",
+
+        "sk1info": "",
+        "sk2info": "",
+        "sk3info": "",
+        "sk4info": "",
+
+        "sk1link": "",
+        "sk2link": "",
+        "sk3link": "",
+        "sk4link": ""
+    },
+    {
+        "nome": "Yoru",
+
+        "descricao": "",
+
+        "classe": "",
+
+        "sk1nome": "",
+        "sk2nome": "",
+        "sk3nome": "",
+        "sk4nome": "",
+
+        "sk1info": "",
+        "sk2info": "",
+        "sk3info": "",
+        "sk4info": "",
+
+        "sk1link": "",
+        "sk2link": "",
+        "sk3link": "",
+        "sk4link": ""
     }
 ]
