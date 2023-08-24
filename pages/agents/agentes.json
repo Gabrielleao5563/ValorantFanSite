@@ -134,24 +134,24 @@
     {
         "nome": "Skye",
 
-        "descricao": "",
+        "descricao": "Mandando um salve direto da Austrália, Skye e sua equipe de feras desbravam territórios hostis. Com seus poderes de cura e suas criações que partem pra cima dos inimigos, qualquer equipe ficará mais forte e mais segura tendo Skye como aliada.",
 
-        "classe": "",
+        "classe": "Iniciador",
 
-        "sk1nome": "",
-        "sk2nome": "",
-        "sk3nome": "",
-        "sk4nome": "",
+        "sk1nome": "Predador explosivo",
+        "sk2nome": "Luz desbravadora",
+        "sk3nome": "Reflorescer",
+        "sk4nome": "Rastreadores",
 
-        "sk1info": "",
-        "sk2info": "",
-        "sk3info": "",
-        "sk4info": "",
+        "sk1info": "EQUIPE um amuleto de lobo-da-tasmânia. DISPARE para enviar e controlar esse predador. Enquanto estiver no controle, DISPARE para saltar para a frente. O lobo gera uma explosão e causa dano aos inimigos diretamente atingidos.",
+        "sk2info": "EQUIPE um amuleto de falcão. DISPARE para enviá-lo. SEGURE O DISPARO para guiar o falcão na direção da sua mira. REPITA a habilidade enquanto ele estiver voando para transformá-lo em um feixe de luz que gera uma confirmação de hit caso um inimigo esteja dentro do alcance ou na linha de visão.",
+        "sk3info": "EQUIPE um amuleto de cura. SEGURE O DISPARO para canalizar, curando aliados dentro do alcance e na sua linha de visão. Esta habilidade pode ser repetida até a reserva de cura ser esgotada. Skye não pode curar a si mesma.",
+        "sk4info": "EQUIPE um amuleto de Rastreador. DISPARE para enviar três Rastreadores que localizarão os três inimigos mais próximos. Se um Rastreador alcançar um alvo, causará Visão Turva a ele. Inimigos podem destruir os Rastreadores.",
 
-        "sk1link": "",
-        "sk2link": "",
-        "sk3link": "",
-        "sk4link": ""
+        "sk1link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt90a6f2733b96ce16/5f7faa7dd4fbb50ef307791e/Val_Skye_Q_Ability_Web.mp4",
+        "sk2link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8ecea4a77a26c25b/5f7fab7adf178b0ea98495a5/Val_Skye_E_Ability_Web.mp4",
+        "sk3link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt0f5403509070a0a2/5f7fabc5879de80eb41b1f33/Val_Skye_C_Ability_Web.mp4",
+        "sk4link": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt966535853a54c58c/5f7fac19df178b0ea98495ad/Val_Skye_X_Ability_Web.mp4"
     },
     {
         "nome": "Yoru",

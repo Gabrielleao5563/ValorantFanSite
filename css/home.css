@@ -9,12 +9,15 @@
 
 .link1 {
     text-decoration: none;
-    color: black;
+    color: white;
+    background-color: none;
     font-size: 1.2em;
+    transition-duration: 0.4s;
     font-weight: bolder;
 }
 .link1:hover {
-    text-decoration: underline black;
+    color: red;
+    background-color: white;
 }
 
 .infoTopText {
@@ -170,6 +173,12 @@ section.maps {
     padding: 20px;
     min-height: 40vh;
     background-color: rgb(255, 70, 85);
+}
+
+section.history {
+    padding: 20px;
+    min-height: 40vh;
+    background-color: white;
 }
 
 @media (max-width: 1023px){
