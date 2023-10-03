@@ -1,5 +1,7 @@
+/* FORMATAÇÃO */
 @charset "UTF-8";
 
+/* TUDO */
 *{
     padding: 0px;
     margin: 0px;
@@ -7,30 +9,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.link1 {
-    text-decoration: none;
-    color: white;
-    background-color: none;
-    font-size: 1.2em;
-    transition-duration: 0.4s;
-    font-weight: bolder;
-}
-.link1:hover {
-    color: red;
-    background-color: white;
-}
-
-.infoTopText {
-    font-size: 2em;
-    font-weight: bolder;
-    text-align: center;
-}
-.infoText {
-    text-align: center;
-    font-size: 150%;
-    font-weight: bold;
-}
-
+/* CABECALHO */
 header {
     background-color: black;
     padding: 10px;
@@ -49,150 +28,57 @@ header {
     text-decoration: none;
 }
 
+/* PRIMEIRA SEÇÃO */
 section.start {
-    background-color: rgb(255, 70, 85);
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.menuvideocontainer {
-    width: 100%;
-    max-width: 45vw;
-}
-.menuvideocontainer > video {
-    width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.205) 15px 15px 4px;
-}
-
-section.advise {
-    background-image: url('https://cdn1.epicgames.com/offer/cbd5b3d310a54b12bf3fe8c41994174f/valwide_2560x1440-99f1632f76e12ddc17d4245a74f29fc5');
-    min-height: 90vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-position: center center;
-    background-attachment: fixed;
-}
-p.advise {
-    background-color: rgba(0, 0, 0, 0.800);
-    padding: 10px;
-    max-width: 90vw;
-    width: 100%;
-    font-size: 200%;
-    color: white;
-    text-align: center;
-    font-weight: bolder;
-}
-.btntext {
-    font-size: 110%;
-    color: white;
-    text-align: center;
-    font-weight: bolder;
-}
-
-a.advise {
-    width: 100%;
-    text-align: center;
-    max-width: 30vw;
-    background-color: rgb(255, 70, 85);
     position: relative;
-    overflow: hidden;
-    padding: 10px;
-    text-decoration: none;
-    color: white;
-    transition-duration: 0.3s;
-    font-weight: bolder;
-    font-size: 200%;
-    border: solid white 1px;
 }
-div.btnhover {
+div.bg-video-container {
+    width: 100%;
+}
+div.bg-video-container > video {
+    width: 100%;
+}
+div.start-section-content-holder {
     position: absolute;
-    top: 0%;
-    left: 100%;
-    transition-duration: 1s;
-    width: 100%;
-    background-color: black;
-    height: 100%;
-}
-a.advise:hover > div.btnhover {
-    left: 0%;
-}
-a.advise:hover {
-    box-shadow: rgb(255, 70, 85) 0px 0px 20px;
-}
-
-.flex {
     display: flex;
-    width: 100%;
-    max-width: 90vw;
-    margin: auto;
-    flex-wrap: wrap-reverse;
     align-items: center;
-    justify-content: space-around;
-}
-.agentimgdiv {
-    width: 100%;
-    max-width: 35vw;
-}
-.infodiv {
-    width: 100%;
-    max-width: 35vw;
-}
-.infodiv > h1 {
-    width: 100%;
-    font-weight: bolder;
-    text-align: center;
-    color: rgb(255, 70, 85);
-    font-size: 2em;
-}
-.infodiv > p {
-    width: 100%;
-    font-size: 150%;
-    text-align: center;
-    font-weight: bold;
-}
-.agentimgdiv > img {
-    width: 100%;
-}
-
-section.agents {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    width: 90%;
+    height: 90%;
 }
-
-#mapchanging {
-    box-shadow: rgba(0, 0, 0, 0.205) 15px 15px 4px;
+p.start {
+    width: 100%;
+    color: white;
+    font-size: 2em;
+    text-align: center;
 }
-
-section.maps {
-    padding: 20px;
-    min-height: 40vh;
+h1.start {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 4em;
+}
+/* BOTÃO DA PRIMEIRA SEÇÃO */
+a.start-section-btn {
     background-color: rgb(255, 70, 85);
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    width: 30%;
+    line-height: 200%;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 10px;
 }
 
-section.history {
-    padding: 20px;
-    min-height: 40vh;
-    background-color: white;
-}
-
+/* CONFIGURAÇÃO EXTRA PARA CELULARES */
 @media (max-width: 1023px){
-    a.advise {
-        max-width: 90vw;
-    }
-    .agentimgdiv {
-        max-width: 80vw;
-    }
-    .infodiv {
-        max-width: 80vw;
-    }
-    .menuvideocontainer {
-        width: 100%;
-        max-width: 90vw;
-    }
+    
 }
