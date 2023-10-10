@@ -28,6 +28,16 @@ header {
     text-decoration: none;
 }
 
+/* DIV Flexivel */
+div.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+    margin: auto;
+}
+
 /* SEÇÃO INICIAL */
 section.start {
     position: relative;
@@ -64,6 +74,7 @@ h1.start {
     text-align: center;
     font-size: 4em;
 }
+
 /* BOTÃO DA SEÇÃO INICIAL */
 a.start-section-btn {
     background-color: rgb(255, 70, 85);
@@ -87,6 +98,34 @@ a.start-section-btn:hover {
 section.agents {
     padding: 10px;
     background-color: rgb(255, 70, 85);
+    min-height: 70vh;
+}
+
+h1.agents {
+    text-align: center;
+    color: white;
+    font-size: 4em;
+}
+
+/* BOTÃO DA SEÇÃO AGENTES*/
+a.agents-section-btn {
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    text-decoration: none;
+    color: rgb(255, 70, 85);
+    font-size: 2em;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    line-height: 200%;
+    font-weight: bolder;   
+}
+a.agents-section-btn:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
 }
 
 /* SEÇÃO MAPAS */
@@ -112,6 +151,7 @@ div.maps-section-content-div {
 
 /* CONFIGURAÇÃO EXTRA PARA CELULARES */
 @media (max-width: 1023px){
+
     /* PRIMEIRA SEÇÃO*/
     p.start {
         font-size: 1em;
@@ -120,6 +160,16 @@ div.maps-section-content-div {
         font-size: 2em;
     }
     a.start-section-btn {
+        font-size: 1em;
+    }
+
+    /* SEÇÃO DOS AGENTES */
+    h1.agents {
+        font-size: 2em;
+    }
+
+    /* BOTÃO DA SEÇÃO AGENTES*/
+    a.agents-section-btn {
         font-size: 1em;
     }
 }
