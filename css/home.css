@@ -28,7 +28,7 @@ header {
     text-decoration: none;
 }
 
-/* PRIMEIRA SEÇÃO */
+/* SEÇÃO INICIAL */
 section.start {
     position: relative;
 }
@@ -64,7 +64,7 @@ h1.start {
     text-align: center;
     font-size: 4em;
 }
-/* BOTÃO DA PRIMEIRA SEÇÃO */
+/* BOTÃO DA SEÇÃO INICIAL */
 a.start-section-btn {
     background-color: rgb(255, 70, 85);
     color: white;
@@ -83,9 +83,31 @@ a.start-section-btn:hover {
     box-shadow: 0px 0px 20px rgb(255, 70, 85);
 }
 
+/* SEÇÃO AGENTES */
 section.agents {
     padding: 10px;
     background-color: rgb(255, 70, 85);
+}
+
+/* SEÇÃO MAPAS */
+section.maps {
+    position: relative;
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt0bb2058c88892462/63b8a805ade3a64c67746408/Lotus_Screenshot_1.jpg?auto=webp&width=915');
+}
+div.maps-section-content-div {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
 }
 
 /* CONFIGURAÇÃO EXTRA PARA CELULARES */
