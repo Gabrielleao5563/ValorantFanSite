@@ -149,6 +149,50 @@ div.maps-section-content-div {
     border-radius: 10px;
 }
 
+
+/* RODAPÉ*/
+
+/* SEÇÃO 1 DO RODAPÉ*/
+.footer-section1 {
+    background-color: black;
+    padding: 5px;
+}
+.p-footer {
+    font-size: 140%;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-weight: bolder;
+}
+.a-footer {
+    color: rgb(255, 70, 85);
+    text-decoration: none;
+}
+.a-footer:hover {
+    color: red;
+    text-decoration: underline red;
+}
+
+/* SEÇÃO 2 DO RODAPÉ */
+.footer-section2 {
+    background-color: rgb(50, 50, 50);
+    padding: 10px;
+}
+.footer-section2-option {
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(50, 50, 50);
+    font-weight: bolder;
+    font-size: 140%;
+    color: white;
+}
+.footer-section2-option:hover {
+    color: rgb(255, 70, 85);
+}
+
+
+
 /* CONFIGURAÇÃO EXTRA PARA CELULARES */
 @media (max-width: 1023px){
 
@@ -171,5 +215,15 @@ div.maps-section-content-div {
     /* BOTÃO DA SEÇÃO AGENTES*/
     a.agents-section-btn {
         font-size: 1em;
+    }
+
+
+    /* RODAPÉ*/
+
+    /* OPÇÕES DA SEÇÃO 2 DO RODAPÉ*/
+    .footer-section2-option {
+        padding: 20px;
+        width: 100%;
+        font-size: 100%;
     }
 }
